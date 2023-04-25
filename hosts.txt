@@ -1,0 +1,2 @@
+[CentOS]
+CentOS  ansible_host=54.172.112.84

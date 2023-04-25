@@ -1,0 +1,7 @@
+---
+- name: install monitoring stack
+  hosts: CentOS
+  become: true
+  roles:
+    - { role: deploy_docker_php, when: ansible_system == "Linux"}
+    
