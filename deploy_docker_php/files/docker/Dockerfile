@@ -8,6 +8,4 @@ RUN docker-php-ext-install pdo mysqli pdo_mysql sockets
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
-
-# Открытие порта 9000 для FPM
 EXPOSE 80
